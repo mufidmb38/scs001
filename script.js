@@ -85,7 +85,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
     					
     					Swal.fire({
 							title: '',
-    						html: `Lancar-lancar ya skripsiannya 👉👈`,
+    						html: `Lancar-lancar ya skripsiannya\n👉👈`,
     						timer: 3000,
     						timerProgressBar: true,
     						showConfirmButton: false}).then((result) => {
